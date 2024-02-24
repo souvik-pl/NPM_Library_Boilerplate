@@ -1,0 +1,22 @@
+{
+  "name": "npm_lib_boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "module",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18.14.0",
+    "prettier": "^3.2.5",
+    "typescript": "4.9.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
